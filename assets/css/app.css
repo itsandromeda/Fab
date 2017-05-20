@@ -1,0 +1,31 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: auto;
+}
+
+.darkest-gray {
+    background-color: #171717;
+}
+
+header .offer a {
+    font-size: 0.8em;
+    color: #fff;
+    padding: 5.5px 0;
+}
+
+.columns .fa-phone,
+.columns .fa-envelope {
+    font-size: 1.3em;
+    margin: 0 5px 0 15px;
+}
+
+.columns .fa-envelope {
+    margin-left: 10px;
+}
+
+.offer img[alt="US flag"] {
+    height: 13px;
+}
