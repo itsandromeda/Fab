@@ -24,6 +24,22 @@ header .offer a {
     padding: 5.5px 0;
 }
 
+header .offer .default:hover {
+    text-decoration: underline;
+}
+
+header .offer .columns {
+    display: flex;
+}
+
+header .offer .columns:first-child {
+    justify-content: flex-start;
+}
+
+header .offer .columns:last-child {
+    justify-content: flex-end;
+}
+
 .columns .fa-phone,
 .columns .fa-envelope {
     font-size: 1.3em;
@@ -38,35 +54,110 @@ header .offer a {
     height: 13px;
 }
 
-.main div:first-child .columns {
-    padding: 0.95rem;
+.main .row {
+    margin: 0;
+}
+
+
+/*
+    ========
+    MAIN TOP
+    ========
+*/
+
+.main .label {
+    background-color: #00a256;
+    font-size: 0.65em;
+    position: absolute;
+    top: 40px;
+    right: 262px;
+    width: 34px;
+    height: 15px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.main .label:hover {
+    color: #fff;
+}
+
+.main .top-nav {
+    width: 100%;
+    padding: 0.95rem 0 0.95rem 0.95rem;
+}
+
+.main .logo {
+    padding: 0;
 }
 
 .main img[alt="Fab"] {
     height: 38.5px;
 }
 
-.main .row {
+.top-nav ul {
+    justify-content: flex-end;
+}
+
+.top-nav li {
+    font-size: 0.95em;
+    color: #c6c6c6;
+    border-right: 1px solid #d4d4d4;
+    margin: 1.6% 0;
+    padding: 0.5% 2%;
+}
+
+.top-nav li:nth-child(3) {
+    border: 0;
+    padding: 0 3.7%;
+}
+
+.top-nav .fa-lock {
+    font-size: 1.6em;
     margin: 0;
 }
 
-.main ul {
+.top-nav li:last-child {
+    border-right: 0;
+    border-left: 1px solid #d4d4d4;
+    padding-right: 0;
+    padding-left: 3.7%;
+}
+
+.top-nav li a:hover {
+    color: #333;
+}
+
+.top-nav li .default:hover {
+    color: #c6c6c6;
+}
+
+
+/*
+    ===========
+    MAIN BOTTOM
+    ===========
+*/
+
+.bot-nav ul {
     justify-content: space-around;
+}
+
+.bot-nav {
     padding: 0 0.8rem;
 }
 
-.main li {
+.bot-nav li {
     font-size: 0.95em;
     border-right: 1px solid #d4d4d4;
+    margin: 0.60% 0;
     padding: 0.32% 2.2%;
-    margin: 0.65% 0;
 }
 
 .main li:first-child {
     padding-left: 0;
 }
 
-.main li:last-child {
+.bot-nav li:last-child {
     padding-right: 0;
     border-right: 0;
 }
@@ -74,9 +165,12 @@ header .offer a {
 .main li a {
     padding: 0;
     margin: 0;
+}
+
+.bot-nav li a {
     color: #333;
 }
 
-.main li a:hover {
+.bot-nav li a:hover {
     color: #9b9b9b;
 }
