@@ -92,6 +92,51 @@ header .offer .columns:last-child {
 
 .main img[alt="Fab"] {
     height: 38.5px;
+    width: 100px;
+}
+
+.top-nav .search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-box {
+    border: 1px solid #171717;
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 92.1%;
+    margin-left: 5%;
+}
+
+.search-box .fa-search {
+    font-size: 1.1em;
+    margin-left: 0.5%;
+}
+
+.search-box input {
+    border: none;
+    color: #333;
+    border-right: 1px solid #171717;
+    width: 86%;
+    padding: 9px 0;
+    outline: none;
+}
+
+.search-box input::-webkit-input-placeholder {
+    color: #333;
+}
+
+.search-box .fa-smile-o {
+    font-size: 1.4em;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.search-box .fa-smile-o:hover {
+    color: orange;
 }
 
 .top-nav ul {
@@ -103,12 +148,12 @@ header .offer .columns:last-child {
     color: #c6c6c6;
     border-right: 1px solid #d4d4d4;
     margin: 1.6% 0;
-    padding: 0.5% 2%;
+    padding: 0.5% 1.3%;
 }
 
 .top-nav li:nth-child(3) {
     border: 0;
-    padding: 0 3.7%;
+    padding: 0 3.1%;
 }
 
 .top-nav .fa-lock {
@@ -120,7 +165,7 @@ header .offer .columns:last-child {
     border-right: 0;
     border-left: 1px solid #d4d4d4;
     padding-right: 0;
-    padding-left: 3.7%;
+    padding-left: 3.1%;
 }
 
 .top-nav li a:hover {
