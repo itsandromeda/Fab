@@ -155,6 +155,91 @@
         margin-top: 0.5em;
         margin-bottom: 0;
     }
+    /*
+    =============
+    FOOTER
+    =============
+*/
+    .footer {
+        color: #171717;
+        border-top: 1px solid #ccc;
+        position: relative;
+        top: 145px;
+        padding: 0;
+    }
+    .footer li {
+        font-size: 0.9em;
+    }
+    .footer .menu a {
+        padding: 0;
+    }
+    .footer-top .row {
+        padding: 0 2em;
+    }
+    .footer-top {
+        padding: 1.5em 0.1em;
+    }
+    .footer-top .show-sm-1 {
+        margin-bottom: 2em;
+    }
+    .footer-top li {
+        margin-right: 1.5em;
+    }
+    .footer h3 {
+        font-size: 1.1em;
+    }
+    .footer-mid .row {
+        margin: 0;
+    }
+    .footer-mid .footer-mid-1,
+    .footer-mid .footer-mid-2 {
+        padding: 0.5em 2em;
+    }
+    .footer-mid .large-10 .row {
+        margin: 0;
+        padding: 0;
+    }
+    .footer-bot {
+        border-top: 1px solid #ccc;
+        border-bottom: 0;
+        margin-bottom: 2.3em;
+        padding: 1.4em 2em;
+    }
+    .footer-bot-2 {
+        margin: 1em 0;
+    }
+    .footer-bot-3 {
+        position: relative;
+    }
+    .footer-bot-3 p {
+        font-size: 0.75em;
+    }
+    .inline-p {
+        display: inline;
+    }
+    .more-info {
+        background-color: #333;
+        text-align: center;
+        color: #fff;
+        font-size: 0.6em;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0.3em;
+        right: 6em;
+    }
+    .footer-bot-3 input {
+        padding: 10px;
+        outline: none;
+    }
+    #continue {
+        background-color: #000;
+        color: #fff;
+        padding: 15px 30px;
+        border-radius: 0;
+        cursor: pointer;
+    }
     .hide-for-small {
         display: none;
     }

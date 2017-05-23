@@ -294,12 +294,152 @@ header .offer .columns:last-child {
 */
 
 .footer {
+    color: #171717;
+    border-top: 1px solid #ccc;
     position: relative;
     top: 145px;
-    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+.footer .menu a {
+    padding: 0;
+}
+
+.footer a {
+    color: #171717;
+}
+
+.footer a:hover {
+    color: #ccc;
 }
 
 .footer li {
     font-size: 0.9em;
     margin-right: 2%;
+}
+
+.footer h3 {
+    font-size: 1.1em;
+}
+
+.footer-top {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 1.5em 0;
+}
+
+.footer-mid .footer-mid-1 {
+    border-right: 1px solid #ccc;
+    margin: 0;
+    padding: 1.4em 0 0.5em;
+}
+
+.footer-mid .footer-mid-2 {
+    padding: 1.4em 0 0.5em 3em;
+}
+
+.footer-mid .large-10 .row {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bot {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2.3em;
+    padding: 1.4em 0;
+}
+
+.footer-mid .footer-mid-2 li {
+    line-height: 26px;
+}
+
+.footer-bot .footer-bot-1 p {
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.footer-bot .large-5 .row,
+.footer-bot .large-4 .row,
+.footer-bot .large-3 .row {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bot i {
+    font-size: 1.5em;
+    padding: 0.15em;
+    color: #fff;
+    background-color: #171717;
+    text-align: center;
+    border-radius: 3px;
+    width: 1.3em;
+    height: 1.3em;
+    margin-top: 0.3em;
+    margin-right: 0.2em;
+    cursor: pointer;
+}
+
+.footer-bot .fa-twitter:hover {
+    background-color: #337ab7;
+}
+
+.footer-bot .fa-facebook:hover {
+    background-color: #4d69a2;
+}
+
+.footer-bot .fa-pinterest:hover {
+    background-color: #c92228;
+}
+
+.footer-bot i:last-child {
+    background-color: transparent;
+    font-size: 2em;
+    padding: 0;
+    margin-top: 0.22em;
+    margin-right: 0;
+    margin-left: -0.2em;
+    color: #171717;
+}
+
+.footer-bot .fa-instagram:hover {
+    color: #4d69a2;
+}
+
+.footer-bot-3 {
+    position: relative;
+}
+
+.footer-bot-3 p {
+    font-size: 0.75em;
+}
+
+.inline-p {
+    display: inline;
+}
+
+.more-info {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 0.6em;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.3em;
+    right: 11.5em;
+}
+
+.footer-bot-3 input {
+    padding: 10px;
+    outline: none;
+}
+
+#continue {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 0;
+    cursor: pointer;
 }
