@@ -157,6 +157,47 @@
     }
     /*
     =============
+    CAROUSEL
+    =============
+*/
+    .carousel {
+        position: relative;
+        top: 145px;
+        padding-top: 2em;
+    }
+    .carousel h3 {
+        font-size: 1em;
+        font-weight: bold;
+        color: #66667d;
+        margin: 0.5em 0 0;
+        padding-left: 1em;
+    }
+    .carousel-wrap {
+        margin: 20px auto;
+        padding: 0;
+        width: 85%;
+        position: relative;
+    }
+    .owl-carousel .item {
+        display: inline;
+        position: relative;
+        /* fix blank or flashing items on carousel */
+        z-index: 100;
+        /* fix blank or flashing items on carousel */
+        -webkit-backface-visibility: hidden;
+        /* fix blank or flashing items on carousel */
+    }
+    .owl-nav > div {
+        margin-top: -26px;
+        position: absolute;
+        top: 50%;
+        color: #cdcbcd;
+    }
+    .owl-nav i {
+        display: none;
+    }
+    /*
+    =============
     FOOTER
     =============
 */
