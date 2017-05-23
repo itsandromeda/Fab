@@ -533,7 +533,7 @@ header .offer .columns:last-child {
     display: none;
     width: 375px;
     background-color: #fff;
-    z-index: 16;
+    z-index: 1;
     position: absolute;
     right: -5px;
     border: 1px solid #bdbebd;
@@ -550,7 +550,7 @@ header .offer .columns:last-child {
     right: -375px;
     width: 375px;
     background-color: #fff;
-    z-index: 106;
+    z-index: 1000;
     color: #333;
     overflow: auto;
     bottom: 0;
