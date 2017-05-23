@@ -1,82 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Product</title>
-  <link rel="stylesheet" href="assets/css/foundation.min.css">
-  <link rel="stylesheet" href="assets/css/app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product</title>
+    <link rel="stylesheet" href="assets/css/foundation.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
-  <header>
-    <!-- AQUÍ VA EL HEADER (Annia)     -->
-  </header>
-  
-<!-- TODO: Para la info del producto
-    - en el div principal va class accordion data-accordion data-allow-all-closed="true"
-    - siguiente div lleva class accordion-item is-active
-    - el siguiente es un a y es class accordion-title
-    - siguiente u div con class accordion-content
-    - dentro va dic con class card
-    - dentro el texto va dentro de un dic con class card-section  -->
+    <header>
 
-  <section>
-    <div class="expanded row">
-      <div class="large-11 large-centered columns">
-        <div class="large-6 columns">
-          <div></div>
-          <div>
+    </header>
+    <section>
+        <div class="row">
+            <div class="small-12 medium-10 medium-centered large-10 large-centered columns">
+                <div class="small-12 medium-7 large-7 columns">
+                    <div>
+                      <div class="orbit-slide">
 
-          </div>
-        </div>
-        <div class="large-4 large-push-1 columns">
-          <div class="row">
-            <h2></h2>
-            <h5></h5>
-            <h3></h3>
-            <button class="small-8 columns"></button>
-            <button class="small-2"></button>
+                      </div>
+                      <div class="">
+
+                      </div>
+                    </div>
+                </div>
+            <div class="small-12 medium-5 large-5 columns">
+            <div class="row">
+              <h2>Wooden Teardrop Shelf 2 Shelves</h2>
+              <h5>by <a href="">The Wavertree Co.</a></h5>
+              <h3>$82</h3>
+              <button class="small-8 columns"></button>
+              <button class="small-2"></button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="expanded row">
-      <ul class="accordion" data-accordion>
-          <li class="accordion-item">
-              <a href="" class="accordion-title">
+    </section>
+    <section id="info" class="expanded row">
+        <div class=" large-8 large-push-2 columns hide-for-small-only">
+            <div class="row">
+                <div>
+                    <hr>
+                </div>
+                <div class="large-6 columns">
+                    <h5 class="title">Description</h5>
+                    <div class="">
+                        <p>Your walls will be crying <strong>tears of joy</strong> when you hang this <strong>Wooden Teardrop Shelf</strong>. Brought to you by designers Olivia and Lee Goodwin of The Wavertree Co., it's the perfect place to display all your weird trinkets, plants, pet rocks, and <strong>all the feels</strong> that make your place distinctly yours.</p>
+                    </div>
+                </div>
+                <div class="large-6 columns">
+                    <h5 class="title">More details</h5>
+                    <div class="">
+                        <ul class="">
+                          <li>2 shelves</li>
+                        </ul>
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <p><strong>Designer:</strong> Olivia Goodwin, Lee Goodwin</p>
+                                <p><strong>Care:</strong> Dust with a dry cloth.</p>
+                                <p><strong>Brand:</strong> The Wavertree Co.</p>
+                                <p><strong>Finish:</strong> Clear Stain</p>
+                                <p><strong>Material:</strong> Cedar, Brass</p>
+                            </div>
+                            <div class="large-6 columns">
+                                <p><strong>Origin:</strong> United States</p>
+                                <p><strong>Color:</strong> Brown</p>
+                                <p><strong>Measurements:</strong> L 11” W 18” H 1.50”</p>
+                                <p><strong>Diameter:</strong> 2.50”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div class="large-6 large-pull-6 columns">
+                    <h5 class="title" href="">Shipping info</h5>
+                    <div class="">
+                        <p><strong>Estimated Arrival:</strong> Between Jun. 15 and Jun. 29 to PE</p>
+                        <p><strong>Return Policy:</strong> We will gladly accept returns for any reason within 30 days of receipt of delivery.</p>
+                        <p><strong>Availability:</strong> Ships to United States</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="large-8 large-push-2 columns accordion show-for-small-only" data-accordion data-allow-all-closed="true">
+            <div>
+                <hr>
+            </div>
+            <div class="large-6 columns accordion-item is-active" data-accordion-item>
+                <a class="accordion-title h4">Description</a>
+                <div class="accordion-content" data-tab-content>
+                    <p>Your walls will be crying <strong>tears of joy</strong> when you hang this <strong>Wooden Teardrop Shelf</strong>. Brought to you by designers Olivia and Lee Goodwin of The Wavertree Co., it's the perfect place to display all your weird trinkets, plants, pet rocks, and <strong>all the feels</strong> that make your place distinctly yours.</p>
+                </div>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div class="large-6 columns accordion-item" data-accordion-item>
+                <a class="accordion-title" href="">More details</a>
+                <div class="accordion-content" data-tab-content>
+                    <ul class="large-push-1 columns">
+                      <li>2 shelves</li>
+                    </ul>
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <p><strong>Designer:</strong> Olivia Goodwin, Lee Goodwin</p>
+                            <p><strong>Care:</strong> Dust with a dry cloth.</p>
+                            <p><strong>Brand:</strong> The Wavertree Co.</p>
+                            <p><strong>Finish:</strong> Clear Stain</p>
+                            <p><strong>Material:</strong> Cedar, Brass</p>
+                        </div>
+                        <div class="large-12 columns">
+                            <p><strong>Origin:</strong> United States</p>
+                            <p><strong>Color:</strong> Brown</p>
+                            <p><strong>Measurements:</strong> L 11” W 18” H 1.50”</p>
+                            <p><strong>Diameter:</strong> 2.50”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div class=" large-12 columns accordion-item" data-accordion-item>
+                <a class="accordion-title" href="">Shipping info</a>
+                <div class="accordion-content" data-tab-content>
+                    <p><strong>Estimated Arrival:</strong> Between Jun. 15 and Jun. 29 to PE</p>
+                    <p><strong>Return Policy:</strong> We will gladly accept returns for any reason within 30 days of receipt of delivery.</p>
+                    <p><strong>Availability:</strong> Ships to United States</p>
+                </div>
+            </div>
+        </div>
+        <div class="small-11 small-centered large-8 large-centered columns">
+            <div class="title">
+                <h4>Customer Reviews</h4>
+            </div>
+                <span>This product has no reviews yet. Be the first to review this product.</span>
+                <button class="hollow button secondary">Rate / Write a review</button>
+        </div>
+    </section>
+    <section id="you-may-like">
+      <div>
+        <h5>You may like</h5>
+      </div>
 
-              </a>
-          </li>
-      <li class="accordion-item">
-          <a href="" class="accordion-title">
+      <div class="orbit show-for-small-only" data-orbit>
+        <div class="orbit-container">
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+          <div class="orbit-slide"><img class="orbit-image" src="assets/img/520571-300x300-1461525528-primary.png" alt=""></div>
+          <div class="orbit-slide"><img class="orbit-image" src="assets/img/520569-300x300-1461683665-primary.png" alt=""></div>
+          <div class="orbit-slide"><img class="orbit-image" src="assets/img/520929-300x300-1467113534-primary.png" alt=""></div>
+          <div class="orbit-slide"><img class="orbit-image" src="assets/img/520936-300x300-1466510380-primary.png" alt=""></div>
+          <div class="orbit-slide"><img class="orbit-image" src="assets/img/520920-300x300-1466510349-primary.png" alt=""></div>
+          <div class="orbit-slide"><img class="orbit-image" src="assets/img/520924-300x300-1467113576-primary.png" alt=""></div>
+        </div>
+        <div class="owl-nav">
+          <div class="owl-prev"></div>
+          <div class="owl-next"></div>
+        </div>
+      </div>
 
-          </a>
-      </li>
-      <li>
-          <a href="">
+    </section>
+    <section id="recently-view"></section>
 
-          </a>
-      </li>
-      <li></li>
-    </ul>
-  </section>
-  <section id="designer">
+    <footer>
 
-  </section>
-  <section id="you-may-like">
+    </footer>
 
-  </section>
-  <section id="recently-view"></section>
-
-  <footer>
-    <!-- AQUÍ VA EL FOOTER (Ariana) -->
-  </footer>
-
-  <script type="text/javascript" src="assets/js/vendor/jquery.js"></script>
-  <script type="text/javascript" src="assets/js/vendor/foundation.min.js"></script>
-  <script type="text/javascript" src="assets/js/vendor/what-input.js"></script>
-  <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/foundation.min.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/what-input.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
