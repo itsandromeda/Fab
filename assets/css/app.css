@@ -72,8 +72,8 @@ header .offer .columns:last-child {
     background-color: #00a256;
     font-size: 0.65em;
     position: absolute;
-    top: 40px;
-    right: 262px;
+    top: 4em;
+    right: 27em;
     width: 34px;
     height: 15px;
     padding: 2px 5px;
@@ -94,8 +94,8 @@ header .offer .columns:last-child {
 }
 
 .main img[alt="Fab"] {
-    height: 38.5px;
-    width: 100px;
+    width: 150%;
+    height: 100%;
 }
 
 .top-nav .search {
@@ -114,7 +114,7 @@ header .offer .columns:last-child {
     margin-left: 5%;
 }
 
-.search-box .fa-search {
+.search-box .show-for-medium .fa-search {
     font-size: 1.1em;
     margin-left: 0.5%;
 }
@@ -154,7 +154,7 @@ header .offer .columns:last-child {
     padding: 0.5% 1.3%;
 }
 
-.top-nav li:nth-child(3) {
+.top-nav li:nth-child(4) {
     border: 0;
     padding: 0 3.1%;
 }
@@ -233,4 +233,20 @@ header .offer .columns:last-child {
 .main-content {
     position: relative;
     top: 145px;
+}
+
+.main-content .wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.shop-now:first-child {
+    margin-bottom: 2em;
+}
+
+.shop-now .large-6 img,
+.shop-now .large-3 img {
+    width: 100%;
+    height: 100%;
 }

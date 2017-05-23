@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="assets/css/foundation.css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- App CSS-->
+    <!-- CSS-->
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 </head>
@@ -23,19 +24,36 @@
             <div class="darkest-gray">
                 <div class="offer row">
                     <div class="columns">
-                        <a class="default" href="#">FREE SHIPPING on orders above $75*</a>
+                        <a class="hide-for-small default" href="#">FREE SHIPPING on orders above $75*</a>
+                        <a class="hide-for-medium default" href="#">FREE SHIPPING above $75*</a>
                     </div>
                     <div class="columns">
                         <a href="#"><span class="default">Ship to: </span><img src="assets/img/us.png" alt="US flag"></a>
                         <a class="show-for-large" href="#"><i class="fa fa-phone"></i>1-855-767-7FAB (1-855-767-7322)</a>
-                        <a href="#"><i class="fa fa-envelope"></i><span class="default">Email Us</span></a>
+                        <a href="#"><i class="fa fa-envelope"></i><span class="hide-for-small default">Email Us</span></a>
                     </div>
                 </div>
             </div>
             <div class="main row">
                 <div class="top-nav row">
-                    <div class="logo columns small-11 medium-1">
-                        <img src="assets/img/fab_logo_3_0.png" alt="Fab">
+                    <div class="logo hide-for-small columns medium-1">
+                        <a href="#"><img src="assets/img/fab_logo_3_0.png" alt="Fab"></a>
+                    </div>
+                    <div class="hide-for-medium columns small-12">
+                        <div class="small-menu columns small-1">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div class="columns small-9">
+                            <a href="#"><img src="assets/img/fab_logo_3_0.png" alt="Fab-small"></a>
+                        </div>
+                        <div class="columns small-2">
+                            <div class="columns small-6">
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                            <div class="columns small-6">
+                                <a href="#"><i class="fa fa-lock"></i></a>
+                            </div>
+                        </div>
                     </div>
                     <div class="search columns medium-6 show-for-medium">
                         <div class="search-box">
@@ -45,13 +63,24 @@
                         </div>
                     </div>
                     <a href="#" class="show-for-medium label">NEW</a>
-                    <div class="columns small-1 medium-5">
+                    <div class="hide-for-small columns small-1 medium-5">
                         <nav>
                             <ul class="row menu">
-                                <li class="show-for-medium columns"><a class="menu-text default" href="#">Fab insider</a></li>
-                                <li class="show-for-medium columns"><a class="menu-text" href="#">Registry</a></li>
-                                <li class="columns"><a class="menu-text" href="#"><i class="fa fa-lock"></i></a></li>
-                                <li class="show-for-medium columns"><a class="menu-text" href="#">Login</a></li>
+                                <li class="columns">
+                                    <a class="menu-text default" href="#">Fab insider</a>
+                                </li>
+                                <li class="columns">
+                                    <a class="menu-text" href="#">Registry</a>
+                                </li>
+                                <li class="columns small-6">
+                                    <a class="menu-text" href="#"><i class="fa fa-search"></i></a>
+                                </li>
+                                <li class="columns small-6">
+                                    <a class="menu-text" href="#"><i class="fa fa-lock"></i></a>
+                                </li>
+                                <li class="columns">
+                                    <a class="menu-text" href="#">Login</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -76,24 +105,28 @@
         </div>
     </header>
     <section class="main-content">
-        <div class="row">
-            <div class="columns small-12 medium-6 large-6">
-                <a href="#"><img src="assets/img/6452-800x800-1494021632.png"></a>
+        <div class="row wrapper">
+            <div class="row shop-now small-12 medium-12 large-12">
+                <div class="columns small-12 medium-6 large-6">
+                    <a href="#"><img src="assets/img/6452-800x800-1494021632.png"></a>
+                </div>
+                <div class="columns small-6 medium-3 large-3">
+                    <a href="#"><img src="assets/img/6428-400x800-1493011185.png"></a>
+                </div>
+                <div class="columns small-6 medium-3 large-3">
+                    <a href="#"><img src="assets/img/6454-400x800-1494021907.png"></a>
+                </div>
             </div>
-            <div class="columns small-6 medium-3 large-3">
-                <a href="#"><img src="assets/img/6428-400x800-1493011185.png"></a>
-            </div>
-            <div class="columns small-6 medium-3 large-3">
-                <a href="#"><img src="assets/img/6454-400x800-1494021907.png"></a>
-            </div>
-            <div class="columns small-6 medium-3 large-3">
-                <a href="#"><img src="assets/img/6431-400x800-1493010475.png"></a>
-            </div>
-            <div class="columns small-6 medium-3 large-3">
-                <a href="#"><img src="assets/img/6459-400x800-1494373688.png"></a>
-            </div>
-            <div class="columns small-12 medium-6 large-6">
-                <a href="#"><img src="assets/img/6455-800x800-1494022060.png"></a>
+            <div class="row shop-now small-12 medium-12 large-12">
+                <div class="columns small-6 medium-3 large-3">
+                    <a href="#"><img src="assets/img/6431-400x800-1493010475.png"></a>
+                </div>
+                <div class="columns small-6 medium-3 large-3">
+                    <a href="#"><img src="assets/img/6459-400x800-1494373688.png"></a>
+                </div>
+                <div class="columns small-12 medium-6 large-6">
+                    <a href="#"><img src="assets/img/6455-800x800-1494022060.png"></a>
+                </div>
             </div>
         </div>
     </section>
