@@ -450,6 +450,10 @@ header .offer .columns:last-child {
     =============
 */
 
+.product .product-div {
+  margin-top: 100px;
+}
+
 .accordion-title,
 .accordion-content {
   border: 0
@@ -516,4 +520,62 @@ header .offer .columns:last-child {
   position:absolute;
   background:blue;
   left:1%;
+}
+
+
+/*
+    =============
+    BAG
+    =============
+*/
+
+#bag {
+    display: none;
+    width: 375px;
+    background-color: #fff;
+    z-index: 16;
+    position: absolute;
+    right: -5px;
+    border: 1px solid #bdbebd;
+    margin-top: 9px;
+}
+
+#bag .bag {
+    -webkit-transition: right .3s ease;
+    -moz-transition: right .3s ease;
+    -o-transition: right .3s ease;
+    transition: right .3s ease;
+    position: fixed;
+    top: 0;
+    right: -375px;
+    width: 375px;
+    background-color: #fff;
+    z-index: 106;
+    color: #333;
+    overflow: auto;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-directtion: column;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    height: 100%;
+}
+
+#bag .bag .active {
+    right: 0;
+    z-index: 1001;
+}
+
+.bag-title {
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    display: table;
 }
