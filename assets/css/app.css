@@ -1,5 +1,16 @@
+@font-face{
+  font-family: Neutra;
+  src: url("../fonts/neutra-book.woff2")
+}
+
+@font-face{
+  font-family: Neutra;
+  src: url("../fonts/neutra-bold.woff2")
+  font-weight:bold;
+}
+
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: Neutra,'Lato', sans-serif;
 }
 
 
@@ -299,7 +310,8 @@ header .offer .columns:last-child {
     padding-top: 2em;
 }
 
-.carousel h3 {
+.carousel h3,
+.carousel h4 {
     font-size: 1em;
     font-weight: bold;
     color: #66667d;
@@ -504,4 +516,137 @@ header .offer .columns:last-child {
     padding: 15px 35px;
     border-radius: 0;
     cursor: pointer;
+}
+
+/*
+    =============
+    PRODUCTO HTML
+    =============
+*/
+
+.product {
+  position: relative;
+  top: 165px;
+  padding: 70px auto;
+}
+
+.product hr {
+  width: 100%;
+  color: #eee;
+}
+
+.product p {
+  font-size: 0.9rem;
+}
+
+.gray {
+  font-weight: normal;
+  color: #5e5e5e;
+}
+
+.red{
+  color: #d0021b;
+}
+
+
+.main-product {
+  width: 505px;
+  max-width: 100%;
+}
+
+.mini-product{
+  width: 70px;
+  height: 70px;
+}
+
+.bag img {
+  width: 17px;
+  height: 20px;
+  position: relative;
+  top: -5px;
+}
+
+.img-small{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bag {
+  width: 201px;
+  height: 42px;
+  font-size: 16px;
+  display: block;
+}
+
+.display-btn{
+  display: inline-block;
+}
+
+.redes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pad-heart{
+  padding: 13px;
+}
+
+
+/*
+    =============
+    BAG
+    =============
+*/
+
+.off-page {
+    position: fixed;
+    z-index: 1000;
+    transition: transform 0.5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #fff;
+    top: 0;
+    right: 0;
+    width: 375px;
+    height: 100%;
+}
+
+.hide-right {
+    -ms-transform: translateX(375px);
+    transform: translateX(375px);
+    overflow-y: auto;
+}
+
+.off-page .is-open {
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.bag-title {
+  background-color: #000;
+  color: #f1fff1;
+  text-align: center;
+  height: auto;
+  padding: 10px 125px;
+}
+
+.bag-span {
+  border-bottom: 1px solid #cecece;
+}
+.bag-span p {
+  font-size: 0.8rem;
+}
+
+.bag-item {
+  padding: 20px auto;
+  border-bottom: 1px solid #cecece;
+}
+
+.bag-item-info {
+  padding-left: 20px;
+}
+
+.bag-item-info p {
+  font-size: 0.6rem;
 }
